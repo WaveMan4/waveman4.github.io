@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Front-End Cheat Sheet</title>
+        <link rel="stylesheet" href="./resources/css/index.css">
+    </head>
+    <body>
+        <div class="site_logo">
+            <img src="./resources/images/main_logo.JPG">
+        </div>
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#html">HTML</a> |
+            <a href="#semantics">Semantics</a> |
+            <a href="#css">CSS</a> | 
+            <a href="#colors">Colors</a> |
+            <a href="#typography">Typography</a>
+        </nav>
+        <div class="home">
+            <h1>THE FRONTEND CHEATSHEET</h1>
+            <p>Welcome!! Congratulations on reaching this last project of Codecademy Web Fundamentals.
+                &nbspThis is a CheatSheet for HTML and CSS concepts learned so far.
+                &nbspTake time to get used to it.
+                &nbspAnd be free to use it in the near future.</p>
+        </div>
+        <div class="html">
+            <table>
+                <thead>
+                    <th scope="col" colspan="2">HTML</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><h2>Main Features:</h2></td>
+                        <td><p>HTML stands for Hypertext Markup Language.&nbspThis represents both a language and a file that displays web pages on a client browser. 
+                            The language tokens are processed by the client browser and sent to a server, which converts the processed tokens into a page with display elements. 
+                            The page is sent back to the client as a response, and then rendered on the browser.&nbsp</p> 
+                            <p>HTML file has formatted strings of phrases or assigned variables. Examples include:</p>
+                            <ul>
+                                <li>h1 – h6</li>	
+                                <li>button</li>
+                            	<li>div</li>
+                            	<li>form</li>
+                            	<li>a</li>
+                            	<li>img</li>
+                            	<li>audio</li>
+                            	<li>table</li>
+                                <li>and others</li>
+                            </ul>
+                            <p>These tags above non-semantic tags.</p> 
+                            <p>There are also semantic tags which will be discussed later in this table (see section titled <q>Semantics</q>).</p>
+                            <p>Attributes can include:</p> 
+                            <ul>
+                                <li>class</li>	
+                                <li>id</li>
+                            	<li>and others</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h2>Formats:</h2></td>
+                        <td>
+                            <p>
+                                &ltopening-tag <i>attributes=”attribute-values” properties</i>&gtText&lt/closing-tag&gt
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h2>Rules:</h2></td>
+                        <td><p>
+                            <ol>
+                                <li>All HTML files begin an &lthtml&gt tag. For HTML5 file, they begin with &lt!DOCTYPE html&gt tag, at the top of the page</li>
+                                <li>&lthtml&gt is an HTML entity that displays a web page in HTML</li>
+                                <li>HTML entity has &lthead&gt and &ltbody&gt within</li>
+                                <li>&lthead&gt establishes title, metadata, and relative links</li>
+                                <li>&ltbody&gt establishes page elements (numerous types)</li>
+                                <li>Open tag first, then close tag after</li>
+                            </ol>
+                        </p></td>
+                    </tr>
+                    <tr>
+                        <td><h2>Priorities:</h2></td>
+                        <td><p>Parent elements can have child elements<br>
+                            Child elements inherit properties from parent
+                        </p></td>
+                    </tr>
+                    <tr>
+                        <td><h2>Design Benefits:</h2></td>
+                        <td><p>Design principles of HTML provide an organized hierarchical structure to represent web pages with parent elements, child elements within, attributes defined, and properties defined. </p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="semantics">
+            <table>
+                <thead>
+                    <th scope="col" colspan="2">Semantics</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><h2>Main Features:</h2></td>
+                        <td><p>Semantics are a human-readable version of the HTML. It gives meaning to a web page, gives more information about the tags, and gives more hooks for styling of my content.</p> 
+                            <p><strong>THINK NEWSPAPER!!</strong></p> 
+                            <p>You have:</p> 
+                            <ul>
+                                <li>Header</li>
+                                <li>Nav</li>
+                                <li>Section</li>	
+                            	<li>Article</li>
+                                <li>Footer</li>
+                            </ul>
+                            <p>Attributes can include: </p>
+                            <ul>
+                                <li>address</li>
+                                <li>time</li>
+                            </ul>
+                            <p>More <strong><em>meaning</em></strong> less presentation</p>
+                            
+                        </p></td>
+                    </tr>
+                    <tr>
+                        <td><h2>Formats:</h2></td>
+                        <td><p>&ltopening-tag&gtText&lt/closing-tag&gt</p></td>
+                    </tr>
+                    <tr>
+                        <td><h2>Rules:</h2></td>
+                        <td><p>
+                            <ol>	
+                                <li>all tags are within html &ltbody&gt</li>
+                                <li>open tag first, close tag after</li>
+                                <li>non-semantic tags can be placed inside semantic tags</li>
+                            <ol>  
+                        </p></td>
+                    </tr>
+                    <tr>
+                        <td><h2>Priorities:</h2></td>
+                        <td><p>None</p></td>
+                    </tr>
+                    <tr>
+                        <td><h2>Design Benefits:</h2></td>
+                        <td><p>
+                            Design principles of Semantic HTML provide a user with additional features from their webpage, using frontend elements that are organize and appeal to readers of webpages. 
+                            The naming conventions of semantic html are easy to read by developers and users alike. 
+                            Also, the pages are accessible through various devices, which provide dynamically adjusted display of content. 
+                            The content is in accordance with each semantic tag.   
+                        </p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="css">
+            <table>
+                <thead>
+                    <th scope="col" colspan="2">CSS</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><h2>Main Features:</h2></td>
+                        <td><p>
+                            CSS stands for Cascading Style Sheets. This enables styling for language formats such as HTML and XML. 
+                            On web pages, it customizes the displays such as fonts, colors, spacing, state transitions, etc. 
+                            On an html page, a header section can contain a user-defined link to a stylesheet located elsewhere (either locally or remotely).
+                        </p></td>
+                    </tr>
+                    <tr>
+                        <td><h2>Formats:</h2></td>
+                        <td><p>
+                            (Optional token [none] . # [href=’example-reference’]) [tag name, class, or id] { attribute: attribute-value; }<br>
+                        </p></td>
+                    </tr>
+                    <tr>
+                        <td><h2>Rules:</h2></td>
+                        <td><p>
+                            <ol>
+                                <li>Documents can be formatted in any way that the styler wants</li>
+                                <li>Selectors pick elements and define attributes for them</li>
+                                <li>Specificity <strong>overrides styling</strong> for based on id->class->tag</li>
+                                <li>Two or more selectors can be chained (e.g., h1.special)</li>
+                                <li>Descendant combinators select elements that are nested within other HTML elements, so the selector is more specific and the element appears “stylized” in the context we expect</li>
+                                <li>Chaining and specificity and can be combined to further <strong>override elements</strong> <strong><em>beyond the general rules</em></strong></li>
+                                <li>One styling can be performed for multiple selectors (one-to-many)
+                            </ol>
+                        </p></td>
+                    </tr>
+                    <tr>
+                        <td><h2>Priorities:</h2></td>
+                        <td><p>Priorities go to id value, then class value, then tag name</p></td>
+                    </tr>
+                    <tr>
+                        <td><h2>Design Benefits:</h2></td>
+                        <td><p>Design principles of CSS encourage modularity, separation of duties, and maintainability of solution artifacts. 
+                            It facilitates customization of HTML elements and saves a developer time. 
+                            It is also device compatible, including syntax that encourage dynamic display between different types of devices (for example, laptops, tablets, smartphones, etc). 
+                            Finally, CSS is purposed for decoration, as it renders a unique web page and user experience as intended by the developer. 
+                        </p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="colors">
+            <table>
+                <thead>
+                    <th scope="col" colspan="2">Colors</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><h2>Main Features:</h2></td>
+                        <td><p>
+                            Colors have a full range of effects on web pages. They are used on backgrounds, text, images, animations, transition, user interactions, and many more aspects of a website. Within HTML, colors can be assigned for individual tags. Within CSS, colors can be assigned or defined or templated for one tag (coloring one element) or multiple tags (coloring multiple elements). 
+                            Pertaining to CSS specifically, the following colors can be applied to a page: </p>
+                            <ul>
+                                <li>Foreground/Background color</li>
+                                <li>Hexadecimal varieties</li>
+                                <li>Red-Green-Blue (RGB) varieties</li>
+                                <li>Hue, Saturation, and Lightness (HSL) combinations</li>
+                                <li>Opacity Features and Alpha Blends</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h2>Formats:</h2></td>
+                        <td><p>
+                            Hexadecimal: Three (3) or Six (6) characters, <br>
+                            beginning with #, and <br>
+                            followed by sets of values 0 to 15 encoded as 0 through F <br>
+                            [Examples] 3 characters: #8A0 or #8a0    6 characters: #2F2F2F or #2f2f2f<br>
+                            <br>    
+                            RBG: Set of three values, each value ranging from 0 to 255 <br>
+                            [Examples] rgb(0, 255, 192) <br>
+                            <br>
+                            HSL: Hue is 0 to 360, Saturation is 0% to 100%, Lightness is 0% to 100% <br>
+                            [Examples] hsl(180, 60%, 80%) <br>
+                            <br>
+                            Adding an Alpha value: attribute a is from 0 to 1.0 <br>
+                            [Examples] rgba(40, 12, 200, 0.25) and hsla(38, 11%, 22%, 0.9)<br>
+                            <br>
+                            <strong>*Note: All values end with a semi-colon (;)</strong>
+                        </p></td>
+                    </tr>
+                    <tr>
+                        <td><h2>Rules:</h2></td>
+                        <td><p>
+                            <ol>
+                                <li>Hex values need to written as one of [0123456789ABCDEF]</li>
+                                <li>Each of the RGB, HSL, and Alpha values must abide by their range</li>
+                            </ol>
+                        </p></td>
+                    </tr>
+                    <tr>
+                        <td><h2>Priorities:</h2></td>
+                        <td><p>None</p></td>
+                    </tr>
+                    <tr>
+                        <td><h2>Design Benefits:</h2></td>
+                        <td><p>Design principles of color make it an essential part of web design. 
+                            The conventions are easy-to-follow and easy for developers to assign. 
+                            There is room to be very creative with front-end colors, as one benefits from a full range of colors can be assigned. 
+                            As a result, visualization of elements are easy to change, modify, and control. 
+                        </p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="typography">
+            <table>
+                <thead>
+                    <th scope="col" colspan="2">Typography</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><h2>Main Features:</h2></td>
+                        <td><p>Typography is the art of arranging text - meaning <i>styling local fonts</i> or <i>text layouts</i> or <i>adding external fonts</i>. 
+                            Local fonts can be styled from singular font or grouped as a font-family, with additional formatting features (such as weight, size, etc.). 
+                            Text layouts can establish spacing, height, and alignment. External fonts can be retrieved sources on the web via a &ltlink&gt placed in the HTML header section. 
+                        </p></td>
+                    </tr>
+                    <tr>
+                        <td><h2>Formats:</h2></td>
+                        <td>
+                            <p>
+                                For styling local fonts, use conventional CSS formats<br>      
+                                <em>Example attribute: attribute-value;</em><br><br>
+                                For text layouts, use conventional CSS formats<br>
+                                <em>Example attribute: attribute-value;</em><br><br>
+                                For external fonts, link in HTML as shown below:<br>        
+                                HTML: add sets of &ltlink&gt inside the &lthead&gt section<br><br>
+                                For filepath, assign <strong>@fontface</strong> ruleset as shown below:<br>
+                            </p>
+                            <img src="resources/images/font-face-example.jpg" alt="GlegooBanner font-face example" width="440" height="auto">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h2>Rules:</h2></td>
+                        <td><p>
+                            <ol>
+                                <li>All fonts are checked for browser compatibility</li>
+                                <li>Styling local fonts follow typical CSS conventions</li>
+                                <li>Text layouts also follow typical CSS conventions</li>
+                                <li>CSS fontfaces should follow appropriate file formats (woff, woff2, otf, ttf)</li>
+                            </ol>
+                        </p></td>
+                    </tr>
+                    <tr>
+                        <td><h2>Priorities:</h2></td>
+                        <td><p>For font-family, check first font, then second font, then next font - if none of the fonts work, use browser default.</p></td>
+                    </tr>
+                    <tr>
+                        <td><h2>Design Benefits:</h2></td>
+                        <td><p>Design principles of typography create fun and engaging interfaces.</p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+    </body>
+</html>
